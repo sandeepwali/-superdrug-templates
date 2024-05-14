@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<articles page="1">
+  <enddevice>
+    <labelCode>LABEL_CODE</labelCode>
+    <labelTypeCode>labelTypeCode</labelTypeCode>
+    <arrow>Arrow</arrow>
+  </enddevice>
+  <article index="1">
+    <data>
+      <item_status>1100</item_status>
+      <dept>1</dept>
+      <dept_name>HAIR STYLING</dept_name>
+      <class>1</class>
+      <class_name>HAIR STYLING</class_name>
+      <subclass>64</subclass>
+      <sub_name>S/D STD MOUSSE</sub_name>
+      <item_desc>S/D MOUSSE EXT FIRM 300ML</item_desc>
+      <item_long_desc>MOUSSE EXTRA FIRM 300ML</item_long_desc>
+      <item_brand>SUPERDRUG</item_brand>
+      <model_no></model_no>
+      <promo_space>TALKER_BEAUTY</promo_space>
+      <product_size>300</product_size>
+      <now_price_per_uom>66.4p per 100ml</now_price_per_uom>
+      <new_was_price_per_uom>66.4p per 100ml</new_was_price_per_uom>
+      <uom>per 100ml</uom>
+      <xx_prom_type>103</xx_prom_type>
+      <group_name>HAIR (BRUSHES-COMBS)</group_name>
+      <xx_prom_id>340321</xx_prom_id>
+      <sku_band></sku_band>
+      <offer_type>103</offer_type>
+      <offer_desc>Buy X save £</offer_desc>
+      <offer_qualify_qty>3</offer_qualify_qty>
+      <reward>1.49</reward>
+      <now_price>2.49</now_price>
+      <new_was_price>2.49</new_was_price>
+      <new_was_was_price>0</new_was_was_price>
+      <save>0</save>
+      <bul_one></bul_one>
+      <bul_two>3 FOR £5 ON HAIR STYLING</bul_two>
+      <bull_three></bull_three>
+      <image></image>
+      <shelf_tags>1</shelf_tags>
+      <no1>1</no1>
+      <no2>1</no2>
+      <no3>1</no3>
+      <no4>1</no4>
+      <zero>0</zero>
+      <new_sku_flag>N</new_sku_flag>
+      <blip_shelf>0</blip_shelf>
+      <blip_position>0</blip_position>
+      <no_of_stores>759</no_of_stores>
+      <Brand_Cat>P (Private Label)</Brand_Cat>
+      <store_type>0424 HAIR STYLING 3 FOR 5</store_type>
+      <data_available>Y</data_available>
+      <feature_promotion></feature_promotion>
+      <was_was_price_start_date></was_was_price_start_date>
+      <was_was_price_end_date></was_was_price_end_date>
+      <calculated_was_was_price>0</calculated_was_was_price>
+      <calculated_was_was_duration></calculated_was_was_duration>
+      <was_price_start_date>22-MAR-23</was_price_start_date>
+      <was_price_end_date>31-DEC-99</was_price_end_date>
+      <calculated_was_price>0</calculated_was_price>
+      <calculated_was_price_duration></calculated_was_price_duration>
+      <was_was_price_duration></was_was_price_duration>
+      <new_was_price1>2.49</new_was_price1>
+      <was_price_duration></was_price_duration>
+      <promotion_price>0</promotion_price>
+      <duration_on_promotion_price></duration_on_promotion_price>
+      <exception_flag></exception_flag>
+      <was_price_1>2.49</was_price_1>
+      <overlapping_promotion>N</overlapping_promotion>
+      <overlapping_promo_missing_xppe></overlapping_promo_missing_xppe>
+      <offer_code></offer_code>
+      <reward_type_desc>Cash</reward_type_desc>
+      <buy_condition>Units</buy_condition>
+      <pe0033_line_count>2</pe0033_line_count>
+      <item_status__2>1100</item_status__2>
+      <dept__2>1</dept__2>
+      <dept_name__2>HAIR STYLING</dept_name__2>
+      <class__2>1</class__2>
+      <class_name__2>HAIR STYLING</class_name__2>
+      <subclass__2>64</subclass__2>
+      <sub_name__2>S/D STD MOUSSE</sub_name__2>
+      <item_desc__2>S/D MOUSSE EXT FIRM 300ML</item_desc__2>
+      <item_long_desc__2>MOUSSE EXTRA FIRM 300ML</item_long_desc__2>
+      <item_brand__2>SUPERDRUG</item_brand__2>
+      <model_no__2></model_no__2>
+      <promo_space__2>TALKER_BEAUTY</promo_space__2>
+      <product_size__2>300</product_size__2>
+      <now_price_per_uom__2>66.7p per 100ml</now_price_per_uom__2>
+      <new_was_price_per_uom__2>83.0p per 100ml</new_was_price_per_uom__2>
+      <uom__2>per 100ml</uom__2>
+      <xx_prom_type__2>102</xx_prom_type__2>
+      <group_name__2>HAIR (BRUSHES-COMBS)</group_name__2>
+      <xx_prom_id__2>340768</xx_prom_id__2>
+      <sku_band__2></sku_band__2>
+      <offer_type__2>102</offer_type__2>
+      <offer_desc__2>Buy X for Set Price</offer_desc__2>
+      <offer_qualify_qty__2>2</offer_qualify_qty__2>
+      <reward__2>4</reward__2>
+      <now_price__2>2.49</now_price__2>
+      <new_was_price__2>2.49</new_was_price__2>
+      <new_was_was_price__2>0</new_was_was_price__2>
+      <save__2>0</save__2>
+      <bul_one__2></bul_one__2>
+      <bul_two__2>2 FOR £4 ON HAIR STYLING</bul_two__2>
+      <bull_three__2></bull_three__2>
+      <image__2></image__2>
+      <shelf_tags__2>1</shelf_tags__2>
+      <no1__2>1</no1__2>
+      <no2__2>1</no2__2>
+      <no3__2>1</no3__2>
+      <no4__2>1</no4__2>
+      <zero__2>0</zero__2>
+      <new_sku_flag__2>N</new_sku_flag__2>
+      <blip_shelf__2>0</blip_shelf__2>
+      <blip_position__2>0</blip_position__2>
+      <no_of_stores__2>759</no_of_stores__2>
+      <Brand_Cat__2>P (Private Label)</Brand_Cat__2>
+      <store_type__2>0424 HAIR STYLING 2 FOR 4</store_type__2>
+      <data_available__2>Y</data_available__2>
+      <feature_promotion__2></feature_promotion__2>
+      <was_was_price_start_date__2></was_was_price_start_date__2>
+      <was_was_price_end_date__2></was_was_price_end_date__2>
+      <calculated_was_was_price__2>0</calculated_was_was_price__2>
+      <calculated_was_was_duration__2></calculated_was_was_duration__2>
+      <was_price_start_date__2>22-MAR-23</was_price_start_date__2>
+      <was_price_end_date__2>31-DEC-99</was_price_end_date__2>
+      <calculated_was_price__2>0</calculated_was_price__2>
+      <calculated_was_price_duration__2></calculated_was_price_duration__2>
+      <was_was_price_duration__2></was_was_price_duration__2>
+      <new_was_price1__2>2.49</new_was_price1__2>
+      <was_price_duration__2></was_price_duration__2>
+      <promotion_price__2>0</promotion_price__2>
+      <duration_on_promotion_price__2></duration_on_promotion_price__2>
+      <exception_flag__2></exception_flag__2>
+      <was_price_1__2>2.49</was_price_1__2>
+      <overlapping_promotion__2>N</overlapping_promotion__2>
+      <overlapping_promo_missing_xppe__2></overlapping_promo_missing_xppe__2>
+      <offer_code__2></offer_code__2>
+      <reward_type_desc__2>New Price</reward_type_desc__2>
+      <buy_condition__2>Units</buy_condition__2>
+      <pe0033_csv_filename>PE0033_PR_TST_Small_POS(Event_No_12760)_2103241241.csv</pe0033_csv_filename>
+      <pe_start_date>27.3.2024</pe_start_date>
+      <pe_end_date>23.4.2024</pe_end_date>
+      <pe_duration_days>28</pe_duration_days>
+      <pe_promo_type>MAIN</pe_promo_type>
+      <PLU_BTCH_NBR>901693</PLU_BTCH_NBR>
+      <OP_CODE>2</OP_CODE>
+      <ITM_ID>00000002148991</ITM_ID>
+      <STR_HIER_ID>1</STR_HIER_ID>
+      <DFLT_RTN_LOC_ID></DFLT_RTN_LOC_ID>
+      <MSG_CD></MSG_CD>
+      <DSPL_DESCR>S/D MOUSSE EXT FIRM 300ML</DSPL_DESCR>
+      <SLS_RESTRICT_GRP>00</SLS_RESTRICT_GRP>
+      <RCPT_DESCR>S/D MOUSSE EXT FIRM</RCPT_DESCR>
+      <TAXABILITY_CD></TAXABILITY_CD>
+      <MDSE_XREF_ID></MDSE_XREF_ID>
+      <NON_MDSE_ID></NON_MDSE_ID>
+      <UOM>ML</UOM>
+      <UNT_QTY></UNT_QTY>
+      <LIN_ITM_CD></LIN_ITM_CD>
+      <MD_FG></MD_FG>
+      <QTY_RQRD_FG>0</QTY_RQRD_FG>
+      <SUBPRD_CNT></SUBPRD_CNT>
+      <QTY_ALLOWED_FG></QTY_ALLOWED_FG>
+      <SLS_AUTH_FG>0</SLS_AUTH_FG>
+      <FOOD_STAMP_FG></FOOD_STAMP_FG>
+      <WIC_FG></WIC_FG>
+      <PERPET_INV_FG></PERPET_INV_FG>
+      <RTL_PRC>2.49</RTL_PRC>
+      <UNT_CST></UNT_CST>
+      <MAN_PRC_LVL></MAN_PRC_LVL>
+      <MIN_MDSE_AMT></MIN_MDSE_AMT>
+      <RTL_PRC_DATE></RTL_PRC_DATE>
+      <SERIALIZED_MDSE_FG></SERIALIZED_MDSE_FG>
+      <CNTR_PRC></CNTR_PRC>
+      <MAX_MDSE_AMT></MAX_MDSE_AMT>
+      <CNTR_PRC_DATE></CNTR_PRC_DATE>
+      <NG_ENTRY_FG></NG_ENTRY_FG>
+      <STR_CPN_FG></STR_CPN_FG>
+      <VEN_CPN_FG></VEN_CPN_FG>
+      <MAN_PRC_FG>0</MAN_PRC_FG>
+      <WGT_ITM_FG>0</WGT_ITM_FG>
+      <NON_DISC_FG>0</NON_DISC_FG>
+      <COST_PLUS_FG></COST_PLUS_FG>
+      <PRC_VRFY_FG></PRC_VRFY_FG>
+      <PRC_OVRD_FG></PRC_OVRD_FG>
+      <SPLR_PROM_FG></SPLR_PROM_FG>
+      <SAVE_DISC_FG></SAVE_DISC_FG>
+      <ITM_ONSALE_FG></ITM_ONSALE_FG>
+      <INHBT_QTY_FG></INHBT_QTY_FG>
+      <DCML_QTY_FG>0</DCML_QTY_FG>
+      <SHELF_LBL_RQRD_FG>1</SHELF_LBL_RQRD_FG>
+      <TAX_RATE1_FG>1</TAX_RATE1_FG>
+      <TAX_RATE2_FG>0</TAX_RATE2_FG>
+      <TAX_RATE3_FG>0</TAX_RATE3_FG>
+      <TAX_RATE4_FG>0</TAX_RATE4_FG>
+      <TAX_RATE5_FG>0</TAX_RATE5_FG>
+      <TAX_RATE6_FG>0</TAX_RATE6_FG>
+      <TAX_RATE7_FG>0</TAX_RATE7_FG>
+      <TAX_RATE8_FG>0</TAX_RATE8_FG>
+      <COST_CASE_PRC></COST_CASE_PRC>
+      <DATE_COST_CASE_PRC></DATE_COST_CASE_PRC>
+      <UNIT_CASE></UNIT_CASE>
+      <MIX_MATCH_CD></MIX_MATCH_CD>
+      <RTN_CD></RTN_CD>
+      <FAMILY_CD></FAMILY_CD>
+      <SUBDEP_ID></SUBDEP_ID>
+      <DISC_CD></DISC_CD>
+      <LBL_QTY>1</LBL_QTY>
+      <SCALE_FG></SCALE_FG>
+      <LOCAL_DEL_FG></LOCAL_DEL_FG>
+      <HOST_DEL_FG></HOST_DEL_FG>
+      <HEAD_OFFICE_DEP></HEAD_OFFICE_DEP>
+      <WGT_SCALE_FG></WGT_SCALE_FG>
+      <FREQ_SHOP_OPTYPE></FREQ_SHOP_OPTYPE>
+      <FREQ_SHOP_VAL></FREQ_SHOP_VAL>
+      <SEC_FAMILY></SEC_FAMILY>
+      <POS_MSG>00</POS_MSG>
+      <SHELF_LIFE_DAY></SHELF_LIFE_DAY>
+      <PROM_NBR></PROM_NBR>
+      <BCKT_NBR></BCKT_NBR>
+      <EXTND_PROM_NBR></EXTND_PROM_NBR>
+      <EXTND_BCKT_NBR></EXTND_BCKT_NBR>
+      <RCPT_DESCR1></RCPT_DESCR1>
+      <RCPT_DESCR2></RCPT_DESCR2>
+      <RCPT_DESCR3></RCPT_DESCR3>
+      <RCPT_DESCR4></RCPT_DESCR4>
+      <CPN_NBR></CPN_NBR>
+      <TAR_WGT_NBR></TAR_WGT_NBR>
+      <RSTRCT_LAYOUT></RSTRCT_LAYOUT>
+      <INTRNL_ID>0000000214899</INTRNL_ID>
+      <OLD_PRC></OLD_PRC>
+      <QDX_FREQ_SHOP_VAL></QDX_FREQ_SHOP_VAL>
+      <VND_ID></VND_ID>
+      <VND_ITM_ID></VND_ITM_ID>
+      <VND_ITM_SZ></VND_ITM_SZ>
+      <CMPRTV_UOM></CMPRTV_UOM>
+      <CMPR_QTY></CMPR_QTY>
+      <CMPR_UNT></CMPR_UNT>
+      <BNS_CPN_FG></BNS_CPN_FG>
+      <EXCLUD_MIN_PURCH_FG></EXCLUD_MIN_PURCH_FG>
+      <FUEL_FG>0</FUEL_FG>
+      <SPR_AUTH_RQRD_FG></SPR_AUTH_RQRD_FG>
+      <SSP_PRDCT_FG></SSP_PRDCT_FG>
+      <NU06_FG></NU06_FG>
+      <NU07_FG></NU07_FG>
+      <NU08_FG></NU08_FG>
+      <NU09_FG></NU09_FG>
+      <NU10_FG></NU10_FG>
+      <FREQ_SHOP_LMT></FREQ_SHOP_LMT>
+      <ITM_STATUS></ITM_STATUS>
+      <DEA_GRP>00</DEA_GRP>
+      <BNS_BY_OPCODE></BNS_BY_OPCODE>
+      <BNS_BY_DESCR>B</BNS_BY_DESCR>
+      <COMP_TYPE></COMP_TYPE>
+      <COMP_PRC></COMP_PRC>
+      <COMP_QTY></COMP_QTY>
+      <ASSUME_QTY_FG></ASSUME_QTY_FG>
+      <EXCISE_TAX_NBR></EXCISE_TAX_NBR>
+      <RTL_PRICE_DATE></RTL_PRICE_DATE>
+      <PRC_RSN_ID>001</PRC_RSN_ID>
+      <ITM_POINT></ITM_POINT>
+      <PRC_GRP_ID></PRC_GRP_ID>
+      <SWW_CODE_FG></SWW_CODE_FG>
+      <SHELF_STOCK_FG></SHELF_STOCK_FG>
+      <UPD_ORIGIN></UPD_ORIGIN>
+      <UPD_BATCH_ID></UPD_BATCH_ID>
+      <UPD_USER_ID></UPD_USER_ID>
+      <CENTRAL_ITEM></CENTRAL_ITEM>
+      <NO_MMBR_CRD_POINTS_FG>0</NO_MMBR_CRD_POINTS_FG>
+      <PRNT_PLU_ID_RCPT_FG></PRNT_PLU_ID_RCPT_FG>
+      <BLK_GRP></BLK_GRP>
+      <TRSHOLD_MULTPLR></TRSHOLD_MULTPLR>
+      <LBL_SIZE>0</LBL_SIZE>
+      <PRINT_LABEL_FG>5</PRINT_LABEL_FG>
+      <BS_UOM_ID></BS_UOM_ID>
+      <BS_UOM_AMT>300</BS_UOM_AMT>
+      <CMPR_UOM_ID></CMPR_UOM_ID>
+      <CMPR_UOM_AMT>100</CMPR_UOM_AMT>
+      <LBL_UOM>per 100ml</LBL_UOM>
+      <POS_RFND_MSG>000</POS_RFND_MSG>
+      <FORECOURT_SERVICES_FG></FORECOURT_SERVICES_FG>
+      <VND_ITM_ID2></VND_ITM_ID2>
+      <WEEKS_SUPPLY></WEEKS_SUPPLY>
+      <MIN_ORDER_QTY></MIN_ORDER_QTY>
+      <MAX_ORDER_QTY></MAX_ORDER_QTY>
+      <ORDERABLE></ORDERABLE>
+      <INVENT_FG></INVENT_FG>
+      <SPECIAL_ORD_QTY></SPECIAL_ORD_QTY>
+      <FREE_QTY></FREE_QTY>
+      <HO_INSTRUCT></HO_INSTRUCT>
+      <DSCNT_LINE></DSCNT_LINE>
+      <PRDCT_GRDING></PRDCT_GRDING>
+      <LOCATION1></LOCATION1>
+      <LOCATION2></LOCATION2>
+      <ALLW_SELL_BY_ITM_NBR_FG></ALLW_SELL_BY_ITM_NBR_FG>
+      <NON_RFUND_FG>0</NON_RFUND_FG>
+    </data>
+  </article>
+</articles>

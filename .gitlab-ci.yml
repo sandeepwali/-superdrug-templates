@@ -1,0 +1,76 @@
+stages:
+# - build_image
+  - generate_images
+
+variables:
+  DOCKER_HOST: tcp://docker-dind:2375
+
+#build_image:
+#  stage: build_image
+#  image: harbor.solumesl.com/docker/docker:23.0.3-git-r0
+#  services:
+#    - docker:dind
+#  script:
+#    - DOCKER_IMAGE_NAME=${CI_REGISTRY}/alpine/superdrug-template:latest
+#    - buildah build --network host --no-cache --pull -t "${DOCKER_IMAGE_NAME}" Dockerfile
+#    - echo "${CI_REGISTRY_PASSWORD}" | buildah login --username "${CI_REGISTRY_USER}" --password-stdin "${CI_REGISTRY}"
+#    - buildah push "${DOCKER_IMAGE_NAME}"
+#  rules:
+#    - if: '$CI_COMMIT_TAG'
+#      changes:
+#        - Dockerfile
+#    - if: '$CI_COMMIT_REF_NAME == "master"'
+#      changes:
+#        - Dockerfile
+
+
+generate_images:
+  stage: generate_images
+  image: harbor.solumesl.com/alpine/superdrug-template:latest
+  script:
+    # Add header to each XSL file
+    - | 
+      PROJECT_NAME=$(echo $CI_PROJECT_NAME)
+      TAG_NAME=$(echo $CI_COMMIT_TAG)
+      COMMIT_SHA=$(echo $CI_COMMIT_SHA)
+      AUTHOR_NAME=$(echo $CI_COMMIT_AUTHOR)
+      PIPELINE_ID=$(echo $CI_PIPELINE_ID)
+      PROJECT_ID=$(echo $CI_PROJECT_ID)
+      PROJECT_URL=$(echo $CI_PROJECT_URL)
+      header="<!--\nProject: $PROJECT_NAME\nTag Name: $TAG_NAME\nCommit Sha: $COMMIT_SHA\nAuthor: $AUTHOR_NAME\nPipeline ID: $PIPELINE_ID\nProject URL: $PROJECT_URL\n-->"
+      for file in *.xsl; do
+        # Prepend the header to each file
+        echo -e "$header\n$(cat $file)" > $file.tmp && mv $file.tmp $file
+      done
+    # Rename XSL files to include the tag name
+    - |
+      for file in *.xsl; do
+        mv "$file" "${file%.xsl}_${CI_COMMIT_TAG}.xsl"
+      done
+    # Generate images for each XSL file
+    - poetry install
+    - poetry run python ./scripts/create_images.py
+    # Create a tarball of the generated files, templates and upload it as a release asset
+    - TAR_GZ="${CI_PROJECT_NAME}_${CI_COMMIT_TAG}.tgz"
+    - |
+      tar c \
+        scripts/xml_data/*.xml \
+        scripts/images/*.png \
+        scripts/logs/* \
+        *.xsl |
+        gzip --best >"${TAR_GZ}"
+    - |
+      curl --header 'Content-Type: multipart/form-data' \
+           --header "JOB-TOKEN: $CI_JOB_TOKEN" \
+           --form "tag_name=$CI_COMMIT_TAG" \
+           --form "name=Release $CI_COMMIT_TAG" \
+           --form "description=Auto-generated release for tag $CI_COMMIT_TAG." \
+           --form "assets[links][][name]=$TAR_GZ" \
+           --form "assets[links][][url]=$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/raw/$TAR_GZ" \
+           "https://gitlab.solumesl.com//api/v4/projects/$CI_PROJECT_ID/releases"
+  only:
+    - tags
+  artifacts:
+    paths:
+      - "*.tgz"
+
